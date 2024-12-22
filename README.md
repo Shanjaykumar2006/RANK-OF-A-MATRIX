@@ -16,8 +16,11 @@ End the prograM
 ## Program:
 ...
 import numpy as np
+
 a=np.array( [[1,2,3],[3,6,9]])
+
 solution=np.linalg.matrix_rank(a)
+
 print(solution)
 ...
 
